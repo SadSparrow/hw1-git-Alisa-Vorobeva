@@ -1,0 +1,21 @@
+# Default ignored files
+/shelf/
+target
+
+# 2.1.a.
+build/*
+# 2.1.b
+*.jar
+!module2.jar
+# 2.1.c.
+application-local.properties
+# 2.1.d.
+.idea
+# 2.1.e.
+.idea_copy/*
+!workspace.xml
+
+# 2.2
+#**/build
+# It is not possible to re-include a file if a parent directory of that file is excluded
+# https://git-scm.com/docs/gitignore
